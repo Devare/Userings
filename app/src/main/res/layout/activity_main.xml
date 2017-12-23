@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="mx.com.devare.userings.MainActivity">
+
+    <Spinner
+        android:id="@+id/sp_cursos"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/cursos_array"
+        android:dropDownSelector="@color/colorAccent">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv_plurales"
+        android:layout_marginTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/info_label_tv_plurales" />
+
+    <Button
+        android:id="@+id/btn_buscar"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:background="@drawable/bk_boton_selector"
+        android:textColor="#FFFFFF"
+        android:text="@string/btn_labl_buscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

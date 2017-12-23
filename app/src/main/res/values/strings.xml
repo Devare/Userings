@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Userings</string>
+
+
+    <!--activity_main.xml-->
+    <string-array name="cursos_array">
+        <item>SELECCIONA UN CURSO</item>
+        <item>Analista Junior GeneXus 15</item>
+        <item>Certificación de Microsoft</item>
+        <item>Certified SWB Developer</item>
+        <item>Certified SWB Manager</item>
+        <item>Certified Cloudino Developer</item>
+        <item>Android Certified Professional</item>
+        <item>IOS Certified Professional</item>
+        <item>Phonegap Certified Professional</item>
+        <item>Oracle Certified Associate PL/SQL Developer</item>
+        <item>Oracle Certified Associate Database Administrator 11G</item>
+        <item>Oracle Certified Professional Database Administrator 11G</item>
+        <item>Oracle Certified Associate Java SE 6</item>
+        <item>Oracle Certified Associate Java SE 7</item>
+        <item>Oracle Certified Associate Java SE 8</item>
+        <item>Programación de videojuegos en Unity </item>
+    </string-array>
+
+    <string name="info_label_tv_plurales">Texto para el uso de plurales</string>
+
+    <string name="zero">No se encontraron alumnos inscritos al curso de Android Certified Professional</string>
+    <string name="btn_labl_buscar">Buscar</string>
+    <plurals name="num_alumnos_encontrados">
+        <item quantity="one">Se encontró %d alumno inscrito al curso de Android Certified Professional</item>
+        <item quantity="other">Se encontraron %d alumnos inscritos al curso de Android Certified Professional</item>
+    </plurals>
+
+</resources>
